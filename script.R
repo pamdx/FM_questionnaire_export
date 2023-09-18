@@ -1,5 +1,3 @@
-rm(list = ls())
-
 library(readr)
 library(dplyr)
 library(readxl)
