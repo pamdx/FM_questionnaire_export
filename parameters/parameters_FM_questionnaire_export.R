@@ -1,5 +1,5 @@
 # Parameters
-data <- read_csv(file.choose(), col_names = TRUE, col_types = "ccccciiccT")
+consolidated_imputed_data <- read_csv(file.choose(), col_names = TRUE, col_types = "ccccciiccT")
 dispatch_year <- 2021
 year <- c(1995:dispatch_year)
 oc3 <- c("Aquaculture", "Marine Coastal Fishing", "Marine Deep-Sea Fishing", "Inland Waters Fishing", "Marine Fishing, nei", "Subsistence", "Unspecified", "Processing")
